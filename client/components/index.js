@@ -5,4 +5,7 @@
  */
 export {default as Navbar} from './navbar'
 export {default as UserHome} from './user-home'
+export {default as AllStudents} from './allStudents'
+export {default as EditStudent} from './editStudent'
+export {default as AddStudent} from './addStudent'
 export {Login, Signup} from './auth-form'

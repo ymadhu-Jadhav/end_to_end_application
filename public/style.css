@@ -1,6 +1,10 @@
 body {
   font-family: sans-serif;
+  background-image: url("images/campus.jpg");
+  color: purple;
 }
+
+
 
 a {
   text-decoration: none;
@@ -18,4 +22,52 @@ nav a {
 form div {
   margin: 1em;
   display: inline-block;
+}
+
+.table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: center;
+}
+
+.tabletr:nth-child(even){background-color: grey;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color:blue;
+  color: white;
+  
+}
+
+.section {
+  background-color: yellow;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  
+}
+
+.textColor {
+  color: red
+}
+
+.allStudentsCompStyle {
+  background-color:whitesmoke
+   
+  }
+  
+.editCompStyle {
+  background-color:rgb(13, 201, 221);
+  color: rgb(4, 0, 255)
 }
